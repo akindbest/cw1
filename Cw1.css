@@ -1,0 +1,78 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+     /* background-image: url("nature-forest-trees-fog.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+form{
+    margin: 0 auto;
+    width: 500px;
+    /*background-color: white;*/
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+form label{
+    width: 100%;
+    display: block;
+    /* margin: 10px; */
+    padding: 20px;
+}
+
+form label input{
+    display: block;
+    margin-left: 0;
+    width: 100%;
+}
+
+form label input:focus{
+    outline-color: rgb(119, 104, 18);
+    outline-width: 2px;
+    outline-style: solid;
+}
+
+form button{
+    margin: 10px auto;
+    display: block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+}
+
+form label span{
+    color: black;
+    font-weight: 900;
+}
+
+
+button:hover{
+    color: black;
+    background-color: white;
+}
+
+button:active{
+    color: hsl(266, 59%, 41%);
+}
+
+div{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    top: 0;
+    background-color: #fff;
+     padding: 100px 50px; 
+    background-image: url("nature-forest-trees-fog.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
